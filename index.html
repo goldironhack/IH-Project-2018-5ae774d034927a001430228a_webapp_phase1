@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet"> 
+	<link rel="shortcut icon" href="http://i1259.photobucket.com/albums/ii547/miagomezch/IconGPS_zps7uthzea6.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> GPSFinderNY </title>
+</head>
+<body>
+	<a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Ikatod - Freepik.com</a>
+	<h1>GPS Finder NY</h1>
+	<div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-3">
+    		</div>
+    		<div class="col-md-7">
+    			<button id="Bronx"> Bronx </button>
+    			<button id="Brooklyn"> Brooklyn </button>
+    			<button id="Manhattan"> Manhattan</button>
+    			<button id="Queens"> Queens</button>
+    			<button id="Staten Island"> Staten Island</button>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-3">
+    		</div>
+    		<div class="col-md-6">
+    			<div id="googleMapContainer"></div>
+    		</div>
+    	</div>
+	</div>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+    
+   <script src="https://d3js.org/d3.v4.min.js"></script>
+   
+   <script type="text/javascript" src="index.js"></script>
+   
+   <script async defer
+	 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWYDB9v1MopiTtPpUXMDaCwAlOQbtn3c&callback=onGoogleMapResponse">
+	</script>
+</body>
+</html>

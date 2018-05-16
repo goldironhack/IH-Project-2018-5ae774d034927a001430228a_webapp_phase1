@@ -1,0 +1,26 @@
+#googleMapContainer	{
+	margin-top: 20px;
+	width: 100%;
+	height: 500px;
+}
+
+body{
+  background: url("http://i1259.photobucket.com/albums/ii547/miagomezch/204_zpsysv1ehpn.jpg");
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:fixed;
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+
+h1{
+	font-family: 'Alef', sans-serif;
+	text-align: center;
+}
+
+
+button {
+	margin-top: 20px;
+}
